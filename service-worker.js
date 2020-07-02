@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.1cac9ab6bed9c071c7b2a4c7a8331216.js"
+  "/precache-manifest.45b88323a69d20c27dcf84a303c111a1.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "senseble-health"});
