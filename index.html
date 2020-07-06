@@ -1,3 +1,61 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><!--[if IE]><link rel="icon" href="/img/brand/favicon.png" type="image/png"><![endif]--><title>Senseble Health</title><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.8.1/css/all.css integrity=sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf crossorigin=anonymous><link rel=stylesheet href=https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css><link href="https://fonts.googleapis.com/css?family=Roboto:300|Source+Sans+Pro&display=swap" rel=stylesheet><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css><link href=https://clinicaltables.nlm.nih.gov/autocomplete-lhc-versions/17.0.2/autocomplete-lhc.min.css rel=stylesheet><link rel=stylesheet href=https://unpkg.com/@icon/themify-icons/themify-icons.css><link href=/css/demo.6c3f644c.css rel=prefetch><link href=/js/demo.5b4ac6d3.js rel=prefetch><link href=/css/app.7577e2e5.css rel=preload as=style><link href=/css/chunk-vendors.f0d160e4.css rel=preload as=style><link href=/js/app.7577d701.js rel=preload as=script><link href=/js/chunk-vendors.b9b3befc.js rel=preload as=script><link href=/css/chunk-vendors.f0d160e4.css rel=stylesheet><link href=/css/app.7577e2e5.css rel=stylesheet><link rel=icon type=image/png sizes=32x32 href=/img/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/img/icons/favicon-16x16.png><link rel=manifest href=/manifest.json><meta name=theme-color content=#4DBA87><meta name=apple-mobile-web-app-capable content=no><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=apple-mobile-web-app-title content=senseble-health><link rel=apple-touch-icon href=/img/icons/apple-touch-icon-152x152.png><link rel=mask-icon href=/img/icons/safari-pinned-tab.svg color=#4DBA87><meta name=msapplication-TileImage content=/img/icons/msapplication-icon-144x144.png><meta name=msapplication-TileColor content=#000000></head><body style="background-color: #ebedef;"><noscript><strong>We're sorry but this app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.b9b3befc.js></script><script src=/js/app.7577d701.js></script></body><script src=https://unpkg.com/axios/dist/axios.min.js></script><script src=https://cdn.jsdelivr.net/vue/latest/vue.min.js></script><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js></script><script src=https://clinicaltables.nlm.nih.gov/autocomplete-lhc-versions/17.0.2/autocomplete-lhc.min.js></script><script>// new Def.Autocompleter.Search('icd10', 'https://clinicaltables.nlm.nih.gov/api/icd10cm/v3/search?sf=code,name',
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><!--[if IE]><link rel="icon" href="/img/brand/favicon.png" type="image/png"><![endif]--><title>Senseble Health</title><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.8.1/css/all.css integrity=sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf crossorigin=anonymous><link rel=stylesheet href=https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css><link href="https://fonts.googleapis.com/css?family=Roboto:300|Source+Sans+Pro&display=swap" rel=stylesheet><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css><link href=https://clinicaltables.nlm.nih.gov/autocomplete-lhc-versions/17.0.2/autocomplete-lhc.min.css rel=stylesheet><link rel=stylesheet href=https://unpkg.com/@icon/themify-icons/themify-icons.css><link href=/css/demo.f071a322.css rel=prefetch><link href=/js/demo.1ea30a05.js rel=prefetch><link href=/css/app.7577e2e5.css rel=preload as=style><link href=/css/chunk-vendors.f0d160e4.css rel=preload as=style><link href=/js/app.8561e2ee.js rel=preload as=script><link href=/js/chunk-vendors.b9b3befc.js rel=preload as=script><link href=/css/chunk-vendors.f0d160e4.css rel=stylesheet><link href=/css/app.7577e2e5.css rel=stylesheet><link rel=icon type=image/png sizes=32x32 href=/img/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/img/icons/favicon-16x16.png><link rel=manifest href=/manifest.json><meta name=theme-color content=#4DBA87><meta name=apple-mobile-web-app-capable content=no><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=apple-mobile-web-app-title content=senseble-health><link rel=apple-touch-icon href=/img/icons/apple-touch-icon-152x152.png><link rel=mask-icon href=/img/icons/safari-pinned-tab.svg color=#4DBA87><meta name=msapplication-TileImage content=/img/icons/msapplication-icon-144x144.png><meta name=msapplication-TileColor content=#000000></head><body style="background-color: #ebedef;"><noscript><strong>We're sorry but this app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><script src=https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js></script><script src=https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js></script><script src=https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js></script><script src=https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js></script><script src=https://www.gstatic.com/firebasejs/7.15.5/firebase-messaging.js></script><script>// Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDPHOUFPQDtaZjpN0c8lJLtTTG717M8cnc",
+      authDomain: "serenity-273107.firebaseapp.com",
+      databaseURL: "https://serenity-273107.firebaseio.com",
+      projectId: "serenity-273107",
+      storageBucket: "serenity-273107.appspot.com",
+      messagingSenderId: "575131567933",
+      appId: "1:575131567933:web:24b903d95837bea360a754",
+      measurementId: "G-LFQXSBHSLY"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();</script><script>// Retrieve Firebase Messaging object.
+    const messaging = firebase.messaging();
+    // Add the public key generated from the console here.
+    messaging.usePublicVapidKey(
+      "BKRG2H2LH8vmVoYmhEYWU3SHDhNjoosvro0zoQkjafXGlIm9r6kJMyPTsOdWAs8OjMBeDdsa62QfS4Q3aDlh5Z4");
+    // Get Instance ID token. Initially this makes a network call, once retrieved
+    // subsequent calls to getToken will return from cache.
+    messaging.getToken().then((currentToken) => {
+      if (currentToken) {
+        //sendTokenToServer(currentToken);
+        //updateUIForPushEnabled(currentToken);
+        console.log(currentToken)
+      } else {
+        // Show permission request.
+        console.log('No Instance ID token available. Request permission to generate one.');
+        // Show permission UI.
+        updateUIForPushPermissionRequired();
+        setTokenSentToServer(false);
+      }
+    }).catch((err) => {
+      console.log('An error occurred while retrieving token. ', err);
+      //showToken('Error retrieving Instance ID token. ', err);
+      //setTokenSentToServer(false);
+    });
+    // Callback fired if Instance ID token is updated.
+    messaging.onTokenRefresh(() => {
+      messaging.getToken().then((refreshedToken) => {
+        console.log('Token refreshed.');
+        // Indicate that the new Instance ID token has not yet been sent to the
+        // app server.
+        setTokenSentToServer(false);
+        // Send Instance ID token to app server.
+        sendTokenToServer(refreshedToken);
+        // ...
+      }).catch((err) => {
+        console.log('Unable to retrieve refreshed token ', err);
+        showToken('Unable to retrieve refreshed token ', err);
+      });
+    });
+    messaging.onMessage((payload) => {
+      console.log('Message received. ', payload);
+      // [START_EXCLUDE]
+      // Update the UI to include the received message.
+      // appendMessage(payload);
+      // [END_EXCLUDE]
+    });</script><div id=app></div><script src=/js/chunk-vendors.b9b3befc.js></script><script src=/js/app.8561e2ee.js></script></body><script src=https://unpkg.com/axios/dist/axios.min.js></script><script src=https://cdn.jsdelivr.net/vue/latest/vue.min.js></script><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js></script><script src=https://clinicaltables.nlm.nih.gov/autocomplete-lhc-versions/17.0.2/autocomplete-lhc.min.js></script><script>// new Def.Autocompleter.Search('icd10', 'https://clinicaltables.nlm.nih.gov/api/icd10cm/v3/search?sf=code,name',
   //   {tableFormat: true, valueCols: [0], colHeaders: ['Code', 'Name']
   // });</script></html>
