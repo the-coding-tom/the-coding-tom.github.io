@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.a5b2685bd59652af626831b99da13ae7.js"
+  "/precache-manifest.500dd666d375d0f54312fac498db6028.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "serenity-patient"});
