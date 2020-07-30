@@ -4,7 +4,7 @@ importScripts("/precache-manifest.69c4eeb6c4fdb5d75427522b5ce55616.js", "https:/
 
 workbox.core.setCacheNameDetails({ prefix: 'd4' })
     //Change this value every time before you build
-const LATEST_VERSION = 'v0.6'
+const LATEST_VERSION = 'v0.7'
 self.addEventListener('activate', (event) => {
     // console.log(`%c ${LATEST_VERSION} `, 'background: #ddd; color: #e8e8e8')
     if (caches) {
@@ -28,7 +28,7 @@ self.addEventListener('activate', (event) => {
     }
 })
 
-workbox.skipWaiting()
+workbox.core.skipWaiting()
 workbox.clientsClaim()
 
 self.__precacheManifest = [].concat(self.__precacheManifest || [])
