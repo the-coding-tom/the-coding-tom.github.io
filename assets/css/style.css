@@ -2243,7 +2243,7 @@ E. Template Specific Elements
 .ts-side-panel {
     font-size: 90%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     padding: 1.25rem;
     overflow-y: scroll;
     right: 0;
