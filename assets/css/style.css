@@ -1194,14 +1194,14 @@ blockquote h6 {
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     /*background-color: darken( var(--color-primary), 20% );
     border-color: darken( var(--color-primary), 20% );*/
-    background-color: #00c9ee;
-    border-color: #00c9ee;
+    background-color: #4b26b2;
+    border-color: #4b26b2;
     box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .3);
 }
 
 .btn-primary {
-    background-color: #00c9ee;
-    border-color: #00c9ee;
+    background-color: #4b26b2;
+    border-color: #4b26b2;
     color: #fff;
 }
 
